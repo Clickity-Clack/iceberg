@@ -1,9 +1,6 @@
 {
   "players": 2,
-  "dimensions": {
-    "height": 14,
-    "width": 14
-  },
+  "type": "standard",
   "turns": [{
     "whosTurn": "r",
     "playerRotation": ["r", "b"],

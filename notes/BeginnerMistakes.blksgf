@@ -1,0 +1,152 @@
+(
+;GM[Blokus Two-Player]
+ DT[2013-12-15]
+;1[A20,B20,B19,B18,C18]
+;2[T20,T19,T18,T17,T16]
+(
+  ;3[Q2,R2,S2,S1,T1]
+   C[This piece uses a "long edge" of red away from the wall, unnecessarily.  In more advanced discussion, people often say that red left an "i3 hole" or an "i3 leak", because no matter what happens, there is a spot at least the size of an i3 that red can't defend.  There are going to be times where this is unavoidable, (or maybe even preferable if Blue is sure to get there) but in this case, the move is too early in the game to be leaving unnecessary leaks, and a simple rotation of this piece can solve the problem without comprimising the intent of this piece.  See the variation.]
+  ;4[C2,D2,A1,B1,C1]
+  (
+    ;1[D17,E17,E16,F16,E15]
+     C[This piece is shorter than it needs to be.  It will also make it hard for blue to avoid creating a leak of some kind.  It's not *always* bad to play a short piece like this on the second turn, but as a rule of thumb, it should be avoided.  In particular, the W here is a much more natural (and better) choice (see the variation).]
+    ;2[R15,S15,Q14,R14,Q13]
+    ;3[N5,O5,O4,O3,P3]
+    ;4[F5,G5,E4,F4,E3]
+    (
+      ;1[G15,G14,G13,H13,H12]
+       C[Notice the t4 leak here - If this is the piece Blue wants to play on this turn, a leak can't really be avoided, though a different orientation (see the first variation) creates 2 smaller leaks instead of one bigger one (not always favourable, but probably favourable here).  Alternatively, W can be played to create no leaks at all (see the second and 3rd variation).]
+      (
+        ;2[N12,O12,P12,M11,N11]
+         C[Much like the first red N5, this creates an unnecessarily large leak.  A different orientation (see the variation) creates a v3 leak instead of an L4 leak (much better).  In general, it's good to try to avoid making rectangles (or half rectangles, as in this case), because they typically lead to places where your opponets can play, but you can't, and even worse, places where your opponents can have some choice of what to play.]
+        ;3[K8,K7,L7,L6,M6]
+        ;4[J8,H7,I7,J7,H6]
+        (
+          ;1[I11,I10,J10,J9,K9]
+           C[Take a look at the Blue W here.  At first it may look great, but the problem is that while it's fine for Blue, it's bad for Red, and Blue and Red are on the same team!  This is an easy mistake to make when not being careful: one of our colours blocks the corner of our other colour, but it needs to be looked out for and avoided.  In this case it's even more deceptive, because it seems like Blue and Red are doing something good together on the right half of the connection.  The key is to avoid corner-to-corner moves, even when the corner-to-corner isn't the end of the piece.  For example, take a look at the second variation to understand the essential badness of this move.  For a better move for blue, see the first variation.]
+          ;2[K12,J11,K11,K10,L10]
+          (
+            ;3[M10,M9,M8]
+             C[It's pretty clear what Red had in mind - Red wanted to ``hit the gap'', to have access to the higher part of the board.  That's a great idea, but what probably happened was that the red player saw that the i3 accomplished this task, and thought to him/herself: ``I guess I need to use a 3-piece'', and just played it.  But it's way too early to be playing an i3, and the key mistake to avoid is forgetting to look for upgrades.  After the Red player sees that the i3 is a good move, he/she should look for better moves that ``contain'' the i3, or even better, look for better moves that accomplish the same goal as the i3.  In the first two variations, see better moves that contain the i3.
+
+Further, red might consider playing from the higher corner of the W (still hitting the gap) to leave space for blue (see the 3rd and 4th variations).]
+            ;4[H11,G10,H10,H9,I9]
+            (
+              ;1[E11,F11,G11,F10,F9]
+               C[This Blue T is quite problematic.  It leaves a pretty big leak for green, and green already has access to that leak.  A much better move would be Y (see the variation) from one square higher, which accomplishes exactly the same things (i.e. has the same active corners, has the same blocks on green), but also blocks green down to a 1-hole if green wants to try to move up.]
+              ;2[H14,I14,J14,I13,J13]
+              ;3[M13,L12,M12,L11]
+              ;4[F15,F14,F13,F12,G12]
+              ;1[H16,I16,I15,J15]
+              ;2[L15,L14,M14,N14,L13]
+              (
+                ;3[K16,L16,K15,K14,K13]
+                 C[This piece creates a 1-square difference between the blue corner and the red corner closest to each other.  In other words, both blue and red share the same key square that they need to play in if they want to move forward, and so only one of them will get to do it (whichever one plays there first blocks the other.
+
+Avoiding this problem is always a good thing, and the easiest way to do it is by "connecting", that means having the red and blue squares touch each other.  This can be done here by simply turning the red piece (see the variation).  In this case, such a move would make red more vulnerable to both yellow and green (which is a bigger problem than it needs to be because of the bad red i3 from earlier), but is probably still worth it.]
+                ;4[E10,E9,E8,F8,G8]
+                (
+                  ;1[D10,D9,D8,D7,E7]
+                   C[Needless "wrap-around" move.  It is often very tempting to wrap your piece around the corner of the opponent's piece, because you're really thinking about killing his coners.  The idea is good, but it's important to remember that there is only one square you need to play in to kill the green corner, not all 3.  This blue L could be flipped (see the variation), and be a much stronger move (by virtue of creating more corners and smaller leaks).]
+                  ;2[O10,N9,O9,P9,O8]
+                  (
+                    ;3[O16,M15,N15,O15,O14]
+                     C[At this point, red probably forgot to pay attention to live corners. The idea here is clear: expand towards yellow, and it's a good idea.  But the bottom corner of the red T isn't very useful (it only leads to a 1-hole), and the top corner is easily killed by yellow.  In fact, yellow can kill almost all of the live red corners after this piece.  See the variation for a better choice for red, and also see the variation on the next yellow move for why this move is so dangerous.]
+                    ;4[K6,J5,K5,L5,M5]
+                    (
+                      ;1[F6,G6]
+                       C[Blue could play the v3 here instead of the i2 (see the variation) - a much better choice as the i2 is super important in the late game.]
+                      (
+                        ;2[P7,O6,P6,P5,P4]
+                         C[See the first variation here for an example of how dangerous the red T was.
+
+This yellow Y is an example of a very common mistake with the Y piece - the "nub" is facing the wrong way.  This is a reasonable choice for where to play, but pay attention the that nub.  For one thing, it doesn't restrict red at all, red already can't play where the nub is, because it borders the red Z.  Second of all, there is now an i4-hole that red can play in on the right side of the Y.  Third of all, yellow has only one new corner created by this Y, and it's kind of far away from it's next closest corner at the top of the Y.  See the second variation for a much better choice.]
+                        (
+                          ;3[S5,Q4,R4,S4]
+                           C[Unless red is planning on playing the i1 to block yellow (possible, but probably not, and also probably a bad idea), this move can be replaced by the Y (a 5-piece) accomplishing all the same things (see the variation)]
+                        )
+                        (
+                          ;3[q4,r4,s4,t4,s5]
+                        )
+                      )
+                      (
+                        ;2[m16,m17,n17,o17,p17]
+                         C[This move is pretty damaging to red!]
+                      )
+                      (
+                        ;2[p4,p5,p6,q6,p7]
+                         C[This move leaves more options for green on the left side of the yellow Y, but no more moves for red.  It also doesn't have any leaks for red, makes it hard for red to move up the right side of the board, and gives yellow 2 additional corners.  This move is significantly better in every way.]
+                      )
+                    )
+                    (
+                      ;1[f6,g6,g7]
+                    )
+                  )
+                  (
+                    ;3[n15,n16,m17,n17,o17]
+                     C[This move is a better choice with the red T.  It has the big advantage of guaranteeing red at least the o4, and likely even more pieces after that.  It is still possible for yellow to play a strong move in response, but this is a lot better than the original red T.  On the other hand, there is an even better move for red in the next variation.]
+                  )
+                  (
+                    ;3[n15,n16,o16,m17,n17]
+                     C[From here, red is guaranteed at least the o4 (square) from the bottom corner of the F.  This move also makes it much harder for yellow to move left, and Yellow has no great moves in response, so this move is doubly good.  ]
+                  )
+                )
+                (
+                  ;1[c7,d7,d8,d9,d10]
+                )
+              )
+              (
+                ;3[k13,k14,k15,j16,k16]
+              )
+            )
+            (
+              ;1[f9,f10,e11,f11,f12]
+            )
+          )
+          (
+            ;3[m8,m9,m10,n10,o10]
+          )
+          (
+            ;3[m8,m9,n9,m10,n10]
+          )
+          (
+            ;3[l9,m9,n9,m10,n10]
+          )
+          (
+            ;3[l9,m9,n9,o9,m10]
+          )
+          (
+            ;3[l9,m9,n9,o9,n10]
+             C[Bonus: Don't do this (miss the gap).  You want to make sure red can play above, this misses it.]
+          )
+        )
+        (
+          ;1[k9,j10,k10,i11,j11]
+        )
+        (
+          ;1[j9,i10,j10,i11]
+           C[This contains the essential badness of the Blue W.]
+        )
+      )
+      (
+        ;2[m11,n11,o11,o12,p12]
+      )
+    )
+    (
+      ;1[h12,h13,g14,h14,g15]
+    )
+    (
+      ;1[i13,h14,i14,g15,h15]
+    )
+    (
+      ;1[g12,h12,f13,g13,f14]
+    )
+  )
+  (
+    ;1[f15,e16,f16,d17,e17]
+  )
+)
+(
+  ;3[r1,s1,t1,q2,r2]
+)
+)

@@ -17,3 +17,6 @@ What information is needed for each turn?
   * (would that matter to anyone? humans get to see the rotation!) 
   * exclude people who have given up?
 * whose turn?
+
+
+should highlight each players most recent move.

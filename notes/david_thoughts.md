@@ -5,6 +5,7 @@ Things to do first before making AI
 * good public api
 * basic working game and UI
 * possibly some kind of move notation [Chess notation for example](https://en.wikipedia.org/wiki/Chess_notation#Notation_systems_for_humans)
+  * its already a thing! http://pentolla.com/beginner/
 * replay system or gif maker using the move notation
 
 What information is needed for each turn?

@@ -3,6 +3,7 @@ I am excited to train AI against the same AI. [Similar to Google's AlphaZero.](h
 
 Things to do first before making AI
 * good public api
+* basic working game and UI
 * possibly some kind of move notation [Chess notation for example](https://en.wikipedia.org/wiki/Chess_notation#Notation_systems_for_humans)
 * replay system or gif maker using the move notation
 

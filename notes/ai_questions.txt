@@ -1,0 +1,6 @@
+
+
+* where do we get a nn and how do we connect it to the game?
+* how to interact with nn?
+* how to know what it is doing?
+* how to snapshot nn

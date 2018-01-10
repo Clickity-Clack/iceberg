@@ -35,6 +35,13 @@ A polished Blockus game:
 * Blunder detection
 * Canned AI response to blunders/clever moves
 * profile pictures
+* profile reaction animations?
+* rotation animations
+* flip animations
+* resign
+* score game
+* save replay
+* watch replay
 
 
 

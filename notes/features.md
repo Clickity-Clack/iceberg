@@ -1,7 +1,7 @@
 
 
 what we are going to show off:
-A polished Blockus game:
+A polished Blockus game (1v1 HvH HvAI AIvAI):
 * Place blocks and manage turns.
 * Win Screen.
 * Start screen.
@@ -41,9 +41,23 @@ A polished Blockus game:
 * resign
 * score game
 * save replay
+* EXTRA CREDIT: we store replays of games on server
 * watch replay
+* some kind of contact the creators button
 
-
+Replay system:
+ * upload file for replay OR copy n paste into textbox
+   * check file is a valid replay not random crap
+ * click through turns
+ * export as GIF (possible to export a range of moves)
+ * show pixel versions of:
+   * board
+   * pieces
+   * scores
+   * turn indicator
+ * EXTRA CREDIT: user comments add to gif
+ * EXTRA CREDIT: blunders
+ 
 
 * well defined API
 * 

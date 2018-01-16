@@ -33,4 +33,4 @@ three different levels of AI
 
 Mike
 John 
-Hadi
+Hadis

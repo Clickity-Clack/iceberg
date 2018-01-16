@@ -45,6 +45,8 @@ A polished Blockus game (1v1 HvH HvAI AIvAI):
 * watch replay
 * some kind of contact the creators button
 
+START BELOW NEXT TIME~
+
 Replay system:
  * upload file for replay OR copy n paste into textbox
    * check file is a valid replay not random crap

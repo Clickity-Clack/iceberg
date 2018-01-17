@@ -101,3 +101,7 @@ Ff
 Mm
 Uu
 Kk
+
+
+polish idea:
+on mouse hover of piece it enlarges

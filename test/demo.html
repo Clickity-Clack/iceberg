@@ -30,27 +30,35 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 
     <style>
+    
+      .co {
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+      }
 
       .p1 {
         border-style: dashed;
-        width: 50px;
-        height: 50px;
+        border-width: 1px;
+        width: 72px;
+        height: 72px;
         border-spacing: 0px;
-        padding: 5px 5px 5px 5px;
+        padding: 10px 10px 10px 10px;
+        margin: 0px 0px 0px 0px;
         transition-property: all;
         transition-duration: 750ms;
         pointer-events: none;
       }
-/*
+      
       .p1:hover {
-        width: 60px;
-        height: 60px;
+        width: 72px;
+        height: 72px;
         padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        margin-right: 20px;
       }
-*/
-      .p1:hover {
-        width: 60px;
-        height: 60px;
+
+      .square, .blank {
         padding: 0px 0px 0px 0px;
       }
 
@@ -58,8 +66,6 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
         width: 33%;
         height: 33%;
         background-color:cadetblue;
-        transition-property: all;
-        transition-duration: 750ms;
         pointer-events: auto;
       }
 
@@ -68,6 +74,10 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
         height: 0px;
         background-color: transparent;
         pointer-events: none;
+      }
+
+      .rotate {
+        transform:rotate(90deg);
       }
 
     </style>
@@ -89,11 +99,23 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
       <div class="polyomino"></div>
       <div class="polyomino"></div>
       <div class="polyomino"></div>
-      <table class="p1">
-        <tr><td class="square"></td><td class="square"></td><td class="square"></td></tr>
-        <tr><td class="square"></td><td class="blank"></td><td class="blank"></td></tr>
-        <tr><td class="square"></td><td class="blank"></td><td class="blank"></td></tr>
-      </table>
+      <div class="co">
+        <table class="p1">
+          <tr><td class="square"></td><td class="square"></td><td class="square"></td></tr>
+          <tr><td class="square"></td><td class="blank"></td><td class="blank"></td></tr>
+          <tr><td class="square"></td><td class="blank"></td><td class="blank"></td></tr>
+        </table>
+        <table class="p1">
+          <tr><td class="blank"></td><td class="square"></td><td class="square"></td></tr>
+          <tr><td class="blank"></td><td class="square"></td><td class="square"></td></tr>
+          <tr><td class="blank"></td><td class="square"></td><td class="blank"></td></tr>
+        </table>
+        <table class="p1 rotate">
+            <tr><td class="blank"></td><td class="square"></td><td class="square"></td></tr>
+            <tr><td class="blank"></td><td class="square"></td><td class="square"></td></tr>
+            <tr><td class="blank"></td><td class="square"></td><td class="blank"></td></tr>
+          </table>
+      </div>
     </div>
     </body>
 </html>

@@ -4,7 +4,8 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
   -->
   <head>
     <style>
-      .container {
+    
+    .container {
         display: flex;
         flex-wrap: wrap;
         width: 300px;
@@ -26,6 +27,50 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
         margin: 0px 0px 0px 0px;
       }
     </style>
+
+
+    <style>
+
+      .p1 {
+        border-style: dashed;
+        width: 50px;
+        height: 50px;
+        border-spacing: 0px;
+        padding: 5px 5px 5px 5px;
+        transition-property: all;
+        transition-duration: 750ms;
+        pointer-events: none;
+      }
+/*
+      .p1:hover {
+        width: 60px;
+        height: 60px;
+        padding: 0px 0px 0px 0px;
+      }
+*/
+      .p1:hover {
+        width: 60px;
+        height: 60px;
+        padding: 0px 0px 0px 0px;
+      }
+
+      .square {
+        width: 33%;
+        height: 33%;
+        background-color:cadetblue;
+        transition-property: all;
+        transition-duration: 750ms;
+        pointer-events: auto;
+      }
+
+      .blank {
+        width: 0px;
+        height: 0px;
+        background-color: transparent;
+        pointer-events: none;
+      }
+
+    </style>
   </head>
   <body>
     <div class="container">
@@ -44,6 +89,11 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
       <div class="polyomino"></div>
       <div class="polyomino"></div>
       <div class="polyomino"></div>
+      <table class="p1">
+        <tr><td class="square"></td><td class="square"></td><td class="square"></td></tr>
+        <tr><td class="square"></td><td class="blank"></td><td class="blank"></td></tr>
+        <tr><td class="square"></td><td class="blank"></td><td class="blank"></td></tr>
+      </table>
     </div>
     </body>
 </html>

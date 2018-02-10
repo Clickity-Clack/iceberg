@@ -1,0 +1,44 @@
+
+
+
+WHAT DO WE NEED TO OUTLINE IN ORDER TO MOVE FORWARD ?
+
+PREGRAME
+  - set number of seats ?
+  - set which seats are AI or HUMAN
+  - HUMAN sits in a seats
+  - start game
+
+TURN_normal
+  give:
+    placement object
+  return:
+    game state
+
+TURN_gameOver
+  returns:
+    game state
+
+TURN_giveUp
+  give:
+    send the give up object
+  returns:
+    game state
+
+TURN_noMoves
+  return:
+    game state
+
+
+gameState
+- board
+- players and un used polyominoes
+- turn rotation
+- whos turn it is
+- scores
+
+placement
+- polyomino name
+- x y
+- rotation
+- flip

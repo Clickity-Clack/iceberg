@@ -10,11 +10,11 @@ const Coordinate = require('../game/coordinate')
 
 describe('game', function () {
   let game
-  let player1 = sinion.mock(Player)
+  let mockPlayer1 = sinion.mock(Player.make())
   let STANDARD_CONFIGURATION = {
     BOARD_SIZE: 14,
     PLAYERS: [
-      player1
+      mockPlayer1
     ]
   }
 
@@ -26,10 +26,9 @@ describe('game', function () {
     const EXPECTED_STATE = {
 
     }
-    player1.expects('updateGameState').calledOnce() // TODO this part
+    mockPlayer1.expects('updateGameState').once()
     let placement = Placement.make(Polyomino.NAME.I1, Coordinate.make(0, 0), Placement.ROTATION.MIDNIGHT, Placement.SIDE.A)
-    game.place(player1, placement)
-
-
+    game.place(mockPlayer1, placement)
+    mockPlayer1.verify()
   })
 })

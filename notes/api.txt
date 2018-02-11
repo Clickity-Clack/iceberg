@@ -11,9 +11,9 @@ PREGRAME
 
 TURN_normal
   give:
-    placement object
+    placement
   return:
-    game state
+    gameState
 
 TURN_gameOver
   returns:

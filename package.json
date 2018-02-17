@@ -1,16 +1,22 @@
 {
   "name": "iceberg",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node ./app",
+    "dev": "nodemon ./app",
+    "clean": "standard --fix"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Clickity-Clack/iceberg.git"
   },
   "dependencies": {
+    "socket.io": "^2.0.4"
   },
   "devDependencies": {
     "sinon": "^4.3.0",
-    "mocha": "^5.0.0"
+    "mocha": "^5.0.0",
+    "nodemon": "^1.15.0",
+    "standard": "^10.0.3"
   }
 }

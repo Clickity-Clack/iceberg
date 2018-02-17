@@ -12,6 +12,10 @@ class Player {
 
   }
 
+  test() {
+    return 1;
+  }
+
 }
 
 module.exports = Player

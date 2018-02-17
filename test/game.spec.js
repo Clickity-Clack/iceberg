@@ -11,7 +11,7 @@ const Coordinate = require('../game/coordinate')
 describe('game', function () {
   let game
   let sandbox
-  let mockPlayer1
+  let crap
   let STANDARD_CONFIGURATION = {
     BOARD_SIZE: 14,
     PLAYERS: [
@@ -23,7 +23,7 @@ describe('game', function () {
   beforeEach(() => {
     game = Game.make(STANDARD_CONFIGURATION)
     p = new Player();
-    mockPlayer1 = sinon.spy(p, 'updateGameState')
+    crap = sinon.mock(p)
   })
 
   it('hi', () => {

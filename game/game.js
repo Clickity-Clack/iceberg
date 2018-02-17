@@ -9,7 +9,6 @@ class Game {
   }
 
   place(aPlayer, aPlacement) {
-    
   }
 }
 

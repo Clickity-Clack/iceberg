@@ -15,6 +15,12 @@ var io = socketio(server)
 io.on('connection', (socket) => {
   
   console.log(socket.id)
+  socket.emit('poll', { message: 'hi' })
+
+  socket.on('answer', (answer) => {
+    console.log(answer)
+  })
+  
 })
 
 const PORT = 3000

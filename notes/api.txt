@@ -31,14 +31,14 @@ TURN_noMoves
 
 
 gameState
-- board
-- players and un used polyominoes
+- placements
+- players and unused polyominoes
 - turn rotation
 - whos turn it is
 - scores
 
 placement
-- polyomino name
-- x y
-- rotation
-- flip
+- name
+- coordinate (x, y)
+- rotation (clockwise)
+- flip (left-to-right)

@@ -1,0 +1,20 @@
+{
+    "placements" : [
+        {
+            "name" : "T4",
+            "coordinate" : {
+                "x" : 9,
+                "y" : 8
+            }, 
+            "roation" : "MIDNIGHT",
+            "side" : "B"
+        }
+    ],
+    "players" : {
+        "lksad;ldsaj;sakjdf" : {"polyominoes" :[ "O4", "I1", "Y", "P" ], "Score" : 123 },
+        "lksad;ldsaj;" : {"polyominoes" :[ "O4", "I1", "Y", "P" ], "Score" : 123 },
+        "lksad;;sakjdf" : {"polyominoes" :[ "O4", "I1", "Y", "P" ], "Score" : 123 }
+    },
+    "TurnRotation" : [ "lksad;ldsaj;sakjdf", "lksad;ldsaj;" ],
+    "WhoseTurn" : "lksad;ldsaj;sakjdf"
+}

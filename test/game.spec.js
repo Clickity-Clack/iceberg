@@ -35,6 +35,12 @@ describe('game', function () {
     assert(game.gamestate != startingGamestate)
   }
 
+  it('GameState\'s board property updates properly', () => {
+    let expectedBoard = [defaultPlacement]
+    game.place(mockPlayer1, defaultPlacement)
+    assert(game.gamestate.board == expectedBoard)
+  }
+
   it('pushes new gamestate to player after placement', () => {
     sinon.spy(mockPlayer1, "updateGameState")
     game.place(mockPlayer1, defaultPlacement)

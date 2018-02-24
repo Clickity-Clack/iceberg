@@ -1,5 +1,6 @@
 {
   "name": "iceberg",
+  "version": "0.0.1",
   "scripts": {
     "test": "mocha",
     "start": "node ./app",

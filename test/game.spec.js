@@ -98,5 +98,10 @@ describe('game', () => {
       game.place(player1, defaultPlacement)
       assert(updateGameStatePlayer1Stub.withArgs(gameStateAfterOneTurn))
     })
+
+    it('contains no obscure movie references', () => {
+      //none!
+      assert(true)
+    })
   })
 })

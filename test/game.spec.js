@@ -7,33 +7,41 @@ const Placement = require('../game/placement')
 const Polyomino = require('../game/polyomino')
 const Coordinate = require('../game/coordinate')
 
-
 describe('game', function () {
+  let mockPlayer1
   let game
-  let sandbox
-  let crap
+  let defaultPlacement
   let STANDARD_CONFIGURATION = {
     BOARD_SIZE: 14,
     PLAYERS: [
       mockPlayer1
     ]
   }
-  let p;
 
   beforeEach(() => {
+    mockPlayer1 = new Player()
     game = Game.make(STANDARD_CONFIGURATION)
-    p = new Player();
-    crap = sinon.mock(p)
-  })
-
-  it('hi', () => {
-    let placement = Placement.make(
+    defaultPlacement =  = Placement.make(
       Polyomino.NAME.I1,
       Coordinate.make(0, 0),
       Placement.ROTATION.MIDNIGHT,
       Placement.SIDE.A
     )
-    game.place(p, placement)
-    assert(p.updateGameState.calledOnce);
+  })
+
+  it('gamestate changes after placement', () => {
+    let startingGamestate = game.gamestate
+    game.place(mockPlayer1, defaultPlacement)
+    assert(game.gamestate != startingGamestate)
+  }
+
+  it('pushes new gamestate to player after placement', () => {
+    sinon.spy(mockPlayer1, "updateGameState")
+    game.place(mockPlayer1, defaultPlacement)
+    assert(mockPlayer1.updateGameState.calledOnce);
+  })
+
+  it('does things', () => {
+    
   })
 })

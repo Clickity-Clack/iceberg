@@ -18,33 +18,34 @@ describe('game', () => {
     ]
   }
 
-  beforeEach(() => {
-    mockPlayer1 = new Player()
-    game = Game.make(STANDARD_CONFIGURATION)
-    defaultPlacement = Placement.make(
-      Polyomino.NAME.I1,
-      Coordinate.make(0, 0),
-      Placement.ROTATION.MIDNIGHT,
-      Placement.SIDE.A
-    )
-  })
+  describe('place', () => {
+    beforeEach(() => {
+      mockPlayer1 = new Player()
+      game = Game.make(STANDARD_CONFIGURATION)
+      defaultPlacement = Placement.make(
+        Polyomino.NAME.I1,
+        Coordinate.make(0, 0),
+        Placement.ROTATION.MIDNIGHT,
+        Placement.SIDE.A
+      )
+    })
 
-  it('gamestate changes after placement', () => {
-    let startingGamestate = game.gamestate
-    game.place(mockPlayer1, defaultPlacement)
-    assert(game.gamestate != startingGamestate)
-  })
+    it('gamestate changes after placement', () => {
+      let startingGamestate = game.gamestate
+      game.place(mockPlayer1, defaultPlacement)
+      assert(game.gamestate != startingGamestate)
+    })
 
-  it('GameState\'s board property updates properly', () => {
-    let expectedBoard = [defaultPlacement]
-    game.place(mockPlayer1, defaultPlacement)
-    assert(game.gamestate.board == expectedBoard)
-  })
+    it('GameState\'s board property updates properly', () => {
+      let expectedBoard = [defaultPlacement]
+      game.place(mockPlayer1, defaultPlacement)
+      assert(game.gamestate.board == expectedBoard)
+    })
 
-  it('pushes new gamestate to player after placement', () => {
-    sinon.spy(mockPlayer1, "updateGameState")
-    game.place(mockPlayer1, defaultPlacement)
-    assert(mockPlayer1.updateGameState.calledOnce);
+    it('pushes new gamestate to player after placement', () => {
+      sinon.spy(mockPlayer1, "updateGameState")
+      game.place(mockPlayer1, defaultPlacement)
+      assert(mockPlayer1.updateGameState.calledOnce)
+    })
   })
-
 })

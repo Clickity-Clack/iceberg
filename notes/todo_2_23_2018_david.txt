@@ -1,0 +1,5 @@
+chat
+
+get actual input from user whos turn it is
+
+try to turn board (list of placed pieces) into a grid

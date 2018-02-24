@@ -101,7 +101,7 @@ describe('game', () => {
 
     it('contains no obscure movie references', () => {
       //none!
-      assert(true)
+      assert(true) // it should be true
     })
   })
 })
